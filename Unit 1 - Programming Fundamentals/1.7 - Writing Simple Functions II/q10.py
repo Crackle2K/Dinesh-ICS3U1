@@ -10,8 +10,8 @@ def bmi(weight, height):
     print(f"The calculated BMI is: {bmi_value}")
 
 def main():
-    user_weight = 70.0
-    user_height = 1.75
+    user_weight = float(input("Enter your weight in kilograms: "))
+    user_height = float(input("Enter your height in meters: "))
     
     bmi(user_weight, user_height)
 
